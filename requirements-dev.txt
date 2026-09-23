@@ -1,0 +1,9 @@
+# Runtime dependencies (also declared in pyproject.toml).
+-r requirements.txt
+
+# Developer tooling: tests use stdlib unittest (no runner needed).
+flake8>=6.0
+black>=23.0
+mypy>=1.0
+# Executable builds (platform-specific; see README):
+pyinstaller>=6.0
